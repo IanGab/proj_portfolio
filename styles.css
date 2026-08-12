@@ -10,12 +10,17 @@ body{
 }
 aside{
     width: 280px;
+    height: 100vh;
     padding: 30px;
     background:white;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 main{
     flex: 1;
     padding: 30px;
+    margin-left: 280px;
 }
 aside img{
     width:100%;
@@ -51,7 +56,8 @@ section h2 {
 .projects-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
+    text-align: justify;
 }
 .project-card{
     background: white;
@@ -63,7 +69,14 @@ section h2 {
     object-fit: cover;
     display: block;
 }
-.project-card h3,
+.project-card h3{
+    padding: 15px;
+    margin-bottom: 10px;
+}
 .project-card p{
     padding: 15px;
+}
+section p{
+    text-align: justify;
+    margin-bottom: 40px;
 }
