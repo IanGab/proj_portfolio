@@ -150,8 +150,36 @@ section h2 {
     color: white;
 }
 #contact h2{
-    color: black;
-    padding: 30px;
+    color: rgb(255, 249, 249);
+    padding: 20px;
     text-align: center;
+    background-color: rgb(0, 0, 0);
+}
 
+.contact-container {
+    display: flex;
+}
+.contact-card {
+    flex: 1;
+    background: #ddd;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px;
+    min-width: 0;
+}
+.contact-card:nth-child(2) {
+    background: #000000;
+}
+.contact-card span {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact-card p {
+    width: 100%;
+    margin: 0;
+    word-break: break-word;
+}
+.contact-card:nth-child(2) p {
+    color: white;
 }
