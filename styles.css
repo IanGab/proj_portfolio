@@ -183,3 +183,41 @@ section h2 {
 .contact-card:nth-child(2) p {
     color: white;
 }
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 15px 25px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+#mobileProfile {
+    cursor: pointer;
+
+}
+#mobileProfile:hover {
+    opacity: 0.7;
+}
