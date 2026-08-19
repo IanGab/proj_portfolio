@@ -166,12 +166,17 @@ section h2 {
     .footer-links {
         justify-content: center;
     }
+    .top-section {
+        display: block;
+    }
+    .music-card {
+        display: none;
+    }
 }
 .filters {
     display: flex;
     gap: 10px;
 }
-
 .filter-btn {
     padding: 10px 20px;
     border: none;
@@ -181,7 +186,6 @@ section h2 {
     border: 1px solid #333;
     transition: 0.3s;
 }
-
 .filter-btn:hover {
     background: #00C2B5;
     color: #121212;
@@ -193,7 +197,6 @@ section h2 {
     border: none;
     cursor: pointer;
 }
-
 #contact h2{
     color: white;
     margin-top: 80px;
@@ -229,12 +232,10 @@ section h2 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .contact-form label {
     display: block;
     margin-bottom: 5px;
 }
-
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -245,12 +246,10 @@ section h2 {
     background: #242424;
     color: #F5F5F5;
 }
-
 .contact-form textarea {
     height: 100px;
     resize: vertical;
 }
-
 .contact-form button {
     padding: 15px 25px;
     color: white;
@@ -346,4 +345,42 @@ footer {
     font-size: 13px;
     line-height: 1.5;
     margin-bottom: 30px;
+}
+.music-card {
+    width: 350px;
+    padding: 20px;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 9px;
+    margin-right: 50px;
+}
+.music-card h3 {
+    font-size: 14px;
+}
+.music-card h5 {
+    margin-top: 25px;
+}
+.progress {
+    height: 5px;
+    background: #555;
+    border-radius: 5px;
+}
+.progress span {
+    display: block;
+    width: 60%;
+    height: 5px;
+    background: #fff;
+    border-radius: 5px;
+}
+.music-card p {
+    text-align: right;
+    font-size: 12px;
+}
+.music-card small {
+    color: #aaa;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
