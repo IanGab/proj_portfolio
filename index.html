@@ -7,19 +7,24 @@
 
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <aside>
       <img src="duck.png" alt="Profile Picture" />
 
       <h3>Ian Gabriel R. Balagtas</h3>
+      <p class="role">Computer Science Student</p>
+      <p class="skills">HTML • CSS • JavaScript • Java • Python • VB.net</p>
 
       <nav>
         <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#projects" class="active">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <div class="status"><span>●</span> Available for projects</div>
     </aside>
 
     <main>
@@ -105,25 +110,51 @@
 
       <section id="about">
         <h2>About Me</h2>
-        <p>
-          Hi, I'm a third-year Computer Science student who's still learning the
-          ropes of web development, but genuinely enjoys every part of the
-          process. I love building software applications, from figuring out the
-          logic behind how things work to designing how they look and feel.
-          There's something satisfying about turning an idea into something
-          functional, and I'm always looking for ways to improve my skills with
-          each new project I take on. Outside of coding, I have a growing
-          interest in networking and how systems connect and communicate with
-          each other. When I'm not studying or working on a project, you'll
-          probably find me playing multiplayer games, which I enjoy both for fun
-          and for the strategy and teamwork involved. I'm still early in my
-          journey, but I'm excited to keep learning, building, and exploring
-          everything web development and computer science have to offer.
-        </p>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a third-year Computer Science student who enjoys learning web
+              development and building software applications. I love working on
+              both the logic and design of projects, turning ideas into
+              functional and engaging applications. I'm also interested in
+              networking and how systems communicate. Outside of coding, I enjoy
+              multiplayer games for their strategy and teamwork. I'm still early
+              in my journey, but I'm excited to keep learning, building, and
+              exploring the world of web development and computer science.
+            </p>
+          </div>
+
+          <div class="currently">
+            <h3>Currently</h3>
+
+            <div class="currently-container">
+              <div class="currently-card">
+                <span>💻</span>
+                <p>Learning JavaScript</p>
+              </div>
+
+              <div class="currently-card">
+                <span>🚀</span>
+                <p>Building Projects</p>
+              </div>
+
+              <div class="currently-card">
+                <span>🎨</span>
+                <p>Exploring UI/UX</p>
+              </div>
+
+              <div class="currently-card">
+                <span>📚</span>
+                <p>Improving My Skills</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="contact">
-        <h2>Contact</h2>
+        <h2>Get in Touch</h2>
 
         <div class="contact-container">
           <div class="contact-card">
@@ -154,7 +185,24 @@
           <button type="submit">➤ &nbsp; Send Message</button>
         </form>
       </section>
-      <h2>footer</h2>
+      <footer>
+        <div class="footer-ig">
+          <strong>IanGabriel.Balagtas</strong>
+        </div>
+
+        <div class="footer-copy">
+          <p>© 2026 IanGabrielBalagtas. Keep learning. Keep building</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://www.facebook.com/ian.balagtas.320524">Facebook</a>
+          <a
+            href="https://www.linkedin.com/in/ian-gabriel-balagtas-7993bb42b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BldNZgyW7TTynjcC4AtB4hw%3D%3D"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/IanGab">GitHub</a>
+        </div>
+      </footer>
     </main>
 
     <script src="script.js"></script>
